@@ -13,7 +13,7 @@ for (int i = 5; i <= 102; i = i + 1) {
 // si el valor es i o igual
 if(102 % 2 == 0) {
 System.out.println(i);
-}
-}
-}
-}
+	}
+	}
+	}
+	}
