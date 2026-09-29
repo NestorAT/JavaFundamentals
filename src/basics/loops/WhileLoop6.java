@@ -1,4 +1,4 @@
-package basics;
+package basics.loops;
 
 public class WhileLoop6 {
 
@@ -13,7 +13,6 @@ public class WhileLoop6 {
 		while (isRunning) {
 
 			if (distance < 20) {
-
 				if (hp >= MAX_HP / 2) {
 					System.out.println("attack");
 				}

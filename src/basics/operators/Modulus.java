@@ -1,4 +1,4 @@
-package basics;
+package basics.operators;
 
 public class Modulus {
 	public static void main(String[] args) {
