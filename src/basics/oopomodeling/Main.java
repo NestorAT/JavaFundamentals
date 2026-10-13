@@ -12,9 +12,14 @@ public class Main {
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
+        //call methods of the objects
 
         System.out.println(c1.circumference());
         System.out.println(c2.circumference());
         System.out.println(c3.circumference());
+        System.out.println(c1.area());
+        System.out.println(c2.area());
+        System.out.println(c3.area());
+
     }
 }
