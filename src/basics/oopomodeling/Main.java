@@ -1,18 +1,20 @@
+
 package basics.oopomodeling;
 
-import javax.management.JMRuntimeException;
+public class Main {
 
-/**
- * @createdNéstor
- * @created08/10/2026
- */
-public class Main { new*
+    public static void main(String[] args) {
 
-    public static void main(String[]args) {
-        Circle c1 = new Circle(radius:2);
+        Circle c1 = new Circle(2);
         Circle c2 = new Circle();
+        Circle c3 = new Circle();
+
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
 
         System.out.println(c1.circumference());
         System.out.println(c2.circumference());
+        System.out.println(c3.circumference());
     }
 }
