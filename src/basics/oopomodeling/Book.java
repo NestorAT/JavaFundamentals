@@ -25,6 +25,15 @@ public class Book {
         ID = iD;
     }
 
+    /**
+     * 
+     * @param title
+     * @param author
+     * @param releaseDate
+     * @param numOfPages
+     * @param iD
+     * @param category
+     */
     public Book(String title, String author, Date releaseDate, int numOfPages, long iD, String category) {
         super();
         this.title = title;
