@@ -25,10 +25,22 @@ public class Main {
         System.out.println(c2.area());
         System.out.println(c3.area());
 
-        Book b1 = new Book("Nestor", 12);
-        
-        System.out.println(b1.category);
-         b1.category ="Hola";	
-         System.out.println(b1.category);
+        // Libro 1: constructor por defecto
+        Book b1 = new Book();
+        b1.category = "Terror";
+
+        // Libro 2: constructor con 2 parametros
+        Book b2 = new Book("El Quijote", 12);
+        b2.category = "Novela Histórica";
+
+        // Libro 3: constructor completo
+        Book b3 = new Book("El mundo de Sofia", "Jostein Gaarder",
+                new java.util.Date(), 500, 13, "Filosofía");
+
+        // Mostrar las categorias
+        System.out.println("Categoría del libro 1: " + b1.category);
+        System.out.println("Categoría del libro 2: " + b2.category);
+        System.out.println("Categoría del libro 3: " + b3.category);
     }
 }
+   
