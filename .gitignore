@@ -1,5 +1,9 @@
-.metadata/
-.classpath
-.project
-bin/
-.settings/
+
+*
+
+!*/
+
+!*.java
+
+!.gitignore
+
