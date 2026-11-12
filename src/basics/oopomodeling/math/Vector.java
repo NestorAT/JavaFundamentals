@@ -1,4 +1,4 @@
-package basics.oopomodeling;
+package basics.oopomodeling.math;
 /**
  * @createdNéstor
  * @created13/10/2026

@@ -1,4 +1,4 @@
-package basics.oopomodeling;
+package basics.oopomodeling.animal;
 
 public class Dog {
 
